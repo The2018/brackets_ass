@@ -13,7 +13,7 @@ There are two ways to implement a stack:
 
 //We are interested in brackets of 3 types: (), [], {}
 enum BracketType {ROUND=0, SQUARE=1, CURLY=2};
- 
+
 //Our items are of type Bracket
 typedef struct { 
     enum BracketType type;
@@ -30,8 +30,8 @@ typedef struct StackNode
 // A structure to represent a stack 
 typedef struct  {       
     unsigned capacity;
-	int top;	
-    //TODO: depending on the implementation - fill-in the fields of a struct
+	int top;
+	Bracket *array;	
 }Stack; 
 
 
